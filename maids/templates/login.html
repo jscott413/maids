@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+<br>
+<br>
+<div class='container'>
+<div class='row'>
+<div class='col-md-4 col-md-offset-4'>
+<form accept-charset="UTF-8" action="/portal/login/" class="form-signin" id="new_client" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ERkjJAhzIhUP9C8QRHsEaQlaPUlhmTwrgrN87XwEa4E=" /></div><input class="form-control" id="client_email" name="client[email]" placeholder="Email address" type="email" />
+<br>
+<input class="form-control" id="client_password" name="client[password]" placeholder="Password" type="password" />
+<input id="client_cleaning_vendor_id" name="client[cleaning_vendor_id]" type="hidden" value="2" />
+<br>
+<div class='text-center'>
+<input class="btn btn-large btn-primary" name="commit" type="submit" value="Sign in" />
+<button class='btn btn-default btn-forgot-password' type='button'>Forgot Password</button>
+</div>
+</form>
+
+{% endblock %}
