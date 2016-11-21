@@ -70,4 +70,32 @@ footer p{
     text-align: justify;
 }
 
+.container-services{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#bedroom{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#price{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#time{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#cta{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
 
